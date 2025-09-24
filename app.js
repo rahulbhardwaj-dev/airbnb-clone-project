@@ -72,7 +72,6 @@ const sessionOptions = {
 //     res.send("Root is online now");
 // });
 
-
 app.use(session(sessionOptions)); //using session for website
 app.use(flash()); // for flash messages
 
